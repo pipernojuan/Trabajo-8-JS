@@ -36,5 +36,20 @@ const cotizarVuelo = ()=> {
             valorVuelo.innerText =  `$ ${valorFinalDelVuelo}`           
     } else {
         swa()
-        };
-    }
+    };
+}
+
+
+
+// Ej de Operador AND
+
+const vuelos = []
+function losVuelos(){
+// if (vuelos.length === 0){
+//     console.warn ("No hay vuelos disponibles")
+//     }
+    let mensajevuelo = vuelos.length === 0 && "No hay vuelos disponibles"
+    console.warn(mensajevuelo)
+}
+
+
